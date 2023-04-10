@@ -77,3 +77,4 @@ especificaciones del lenguaje.
 autoría, palabras clave, entre otros aspectos. Los metadatos son importantes para la indexación y el procesamiento automático de 
 documentos por parte de los motores de búsqueda, las redes sociales y otros sistemas que acceden y procesan la información de la web.
     En HTML, los metadatos se pueden especificar utilizando el elemento <meta>.
+-------------------------------------------------------------------------------------------------------------------------------------------
