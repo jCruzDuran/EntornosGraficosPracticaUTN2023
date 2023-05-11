@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    border: 1px solid black;
+    min-height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    display: block;
+    border: 1px solid black;
+}
+
+.texto {
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.modal {
+    padding: 50px;
+    margin: 5px;
+    background-color: #ccc;
+}
+
+.rojo {
+    border: 2px solid red;
+}
+
+.azul {
+    border: 2px solid blue;
+}
+
+.container-2{
+    border: 1px solid black;
+
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+}
+
+
+.navbar > li {
+    margin: 0 25px;
+    padding: 10px;
+}
+
+.navbar > li > a:hover {
+    background-color: #ccc;
+    padding: 10px;
+}
+
+.btn{
+
+}
