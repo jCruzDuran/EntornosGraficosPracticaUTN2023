@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Formulario</title>
+</head>
     <body>
-        <center>
-            <form action="ejemplo1.php">
-                <br /><br>
-                <p>Ingrese nombre:</p>
-                <input type="text" name="Nombre" placeholder="Ingrese nombre:">
-                <p>Ingrese edad:</p>
-                <input type="number" min="18" max="50" name="" id="">
-            </form>
-        </center>
+        <form action="procesar.php">
+            <br /><br>
+            <p>Ingrese nombre:</p>
+            <input type="text" required name="Nombre" placeholder="Pepito">
+            <p>Ingrese edad:</p>
+            <input type="number" required min="18" max="50" name="" id="">
+            <br><br>
+            <input type="submit" value="Enviar"/>
+        </form>
     </body>
 </html>
